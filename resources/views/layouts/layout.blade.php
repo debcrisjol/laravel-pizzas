@@ -22,54 +22,38 @@
         .pizza1,.pizza2{position: absolute;
         width: 250px; margin:10px;
     border-radius: 20%;}
-        .pizza1{left:0;bottom:20%;}
-        .pizza2{right:0;bottom:20%}
+        .pizza1{left:2%;bottom:10%;}
+        .pizza2{right:2%;bottom:10%}
         .pizza1:hover{filter:brightness(100%);}
         .imagine-centrale {
             position: absolute;
-
-
             border-radius: 50%;
-
             display: flex;
             justify-content: center;
+            bottom:10%;
         }
-
         .logo {margin-top:10px;
             display: flex;
             justify-content: center;
         }
-
         body {
             background-color: #C59849;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
-
         .pizza-page {
             position: absolute;
         }
-
         h1 {
             text-align: center;
-            margin-top: 10%;
-            color: aquamarine;
-
+            
         }
-
         p:hover {
             color: yellow;
         
         }
-
-
-        .primo-titolo {
-            margin-top: 20%;
-        }
-
         p {
             text-align: center;
         }
-
         footer {
             display: flex;
             justify-content: center;
@@ -78,13 +62,24 @@
             bottom: 0px;
             background-color: #606c38;
             width: 100%;
-            height: 10%;
+            height: 7%;
         }
-
+        ul{list-style: none;}
         h1 {
             color:  #606c38;
             font-size: 80px;
         }
+        .back,a{font-style: oblique;
+        text-decoration: none;
+      color:#606c38;
+    font-size: larger;
+  text-align: center;}
+  .back:hover{color:orangered;
+  font-size: x-large;}
+  .thanks{color:yellow;}
+
+
+
     </style>
 </head>
 
