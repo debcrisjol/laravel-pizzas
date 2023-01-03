@@ -88,11 +88,12 @@
         .back,a{font-style: oblique;
         text-decoration: none;
       color:#606c38;
-    font-size: larger;
+    font-size: xx-large;
   text-align: center;}
   .back:hover{color:orangered;
   font-size: x-large;}
   .thanks{color:yellow;}
+  .navbar {background-color:#606c38; }
 
 
 
@@ -100,8 +101,8 @@
     </style>
 </head>
 <body>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+    <div id="app" >
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm">
             <div class="container">
               
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -120,13 +121,13 @@
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                    <a class="nav-link fs-4" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>
                             @endif
 
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    <a class="nav-link fs-4" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
                             @endif
                         @else
