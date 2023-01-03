@@ -1,4 +1,5 @@
-@extends('layouts.layout')
+{{-- @extends('layouts.layout') --}}
+@extends('layouts.app')
   @section('content')
   <div class="logo">
   <img class="imagine-centrale" src="image/pizza.jpg" style="height:200px" alt="pizza house logo">
