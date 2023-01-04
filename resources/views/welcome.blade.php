@@ -11,7 +11,7 @@
     <p class="w-50 m-auto p-3">La Pizzeria nasce dalla passione di Cristina che ha creato un locale davvero aperto a tutti dove le materie prime e la lavorazione artigianale miscelano l'innovazione di una pizzeria/ristorante dall'aspetto moderno che offre a tutti la Pizza della grande tradizione Italiana.
   
   </p>  <a href="/pizzas/create" class="text-danger fs-4">Order a Pizza</a>
-  <p class="thanks">{{session('mssg')}}</p>
+  <p class="thanks fs-3">{{session('mssg')}}</p>
 </div>
 
 @endsection
